@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf ./dist && tsc -p . --lib es2017 --outDir dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ts-node src/test.ts"
   },
   "repository": {
     "type": "git",
