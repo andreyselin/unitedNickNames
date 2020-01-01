@@ -1,0 +1,31 @@
+{
+  "name": "unitednicknames",
+  "version": "1.0.0",
+  "description": "Nickname libraries",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc -p . --lib es2017 --outDir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreyselin/unitedNickNames.git"
+  },
+  "keywords": [
+    "nickname",
+    "generator",
+    "libraries"
+  ],
+  "author": "Andrey Selin",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/andreyselin/unitedNickNames/issues"
+  },
+  "homepage": "https://github.com/andreyselin/unitedNickNames#readme",
+  "dependencies": {
+    "@types/node": "^11.11.3",
+    "ts-node": "^8.0.3",
+    "nodemon": "^1.18.10",
+    "typescript": "^3.3.3333"
+  }
+}
